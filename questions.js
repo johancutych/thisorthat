@@ -35,7 +35,7 @@ export const categories = [
   },
   {
     name: "wedding",
-    label: "For Engaged Couples",
+    label: "Engaged Couples",
     icon: "fas fa-gem",
     color: { h: 394, s: 95, l: 43 }, // Orange
   },
