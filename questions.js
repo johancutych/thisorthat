@@ -34,10 +34,28 @@ export const categories = [
     color: { h: 551, s: 95, l: 43 }, // Teal
   },
   {
+    name: "wedding",
+    label: "For Engaged Couples",
+    icon: "fas fa-gem",
+    color: { h: 394, s: 95, l: 43 }, // Orange
+  },
+  {
     name: "getToKnowYou",
     label: "Get To Know You",
     icon: "fas fa-user-friends",
     color: { h: 686, s: 95, l: 43 }, // Pink
+  },
+  {
+    name: "spicy",
+    label: "Spicy",
+    icon: "fas fa-pepper-hot",
+    color: { h: 349, s: 95, l: 43 }, // Spicy Red (original color)
+  },
+  {
+    name: "adultWouldYouRather",
+    label: "Adult Dilemmas",
+    icon: "fas fa-question-circle",
+    color: { h: 664, s: 95, l: 43 }, // Violet
   },
   {
     name: "forCouples",
@@ -94,29 +112,17 @@ export const categories = [
     color: { h: 371, s: 95, l: 43 }, // Red-Orange
   },
   {
-    name: "spicy",
-    label: "Spicy",
-    icon: "fas fa-pepper-hot",
-    color: { h: 349, s: 95, l: 43 }, // Spicy Red (original color)
-  },
-  {
-    name: "adultWouldYouRather",
-    label: "Adult Dilemmas",
-    icon: "fas fa-question-circle",
-    color: { h: 664, s: 95, l: 43 }, // Violet
-  },
-  {
     name: "christmas",
     label: "Christmas",
     icon: "fas fa-gift",
     color: { h: 439, s: 95, l: 43 }, // Yellow-Orange
   },
-  {
-    name: "productHunt",
-    label: "Product Hunt",
-    icon: "fas fa-project-diagram",
-    color: { h: 394, s: 95, l: 43 }, // Product Hunt Orange (original color)
-  },
+  // {
+  //   name: "productHunt",
+  //   label: "Product Hunt",
+  //   icon: "fas fa-project-diagram",
+  //   color: { h: 394, s: 95, l: 43 }, // Product Hunt Orange (original color)
+  // },
 ];
 
 export const questions = {
@@ -396,6 +402,58 @@ export const questions = {
     { option1: "Grocery shopping", option2: "Online ordering" },
     { option1: "Miniature golf", option2: "Bowling" },
     { option1: "Sleeping in", option2: "Early morning cuddles" },
+  ],
+  wedding: [
+    { option1: "Beach wedding", option2: "Mountain wedding" },
+    { option1: "Summer wedding", option2: "Winter wedding" },
+    { option1: "Big wedding", option2: "Intimate ceremony" },
+    { option1: "Traditional vows", option2: "Personal vows" },
+    { option1: "Indoor venue", option2: "Outdoor venue" },
+    { option1: "Live band", option2: "DJ" },
+    { option1: "Buffet", option2: "Plated dinner" },
+    { option1: "Open bar", option2: "Limited bar" },
+    { option1: "Honeymoon right after", option2: "Delayed honeymoon" },
+    { option1: "Local honeymoon", option2: "Exotic destination" },
+    { option1: "First look photos", option2: "Aisle reveal" },
+    { option1: "Videographer", option2: "Just photographer" },
+    { option1: "Formal attire", option2: "Casual dress code" },
+    { option1: "Religious ceremony", option2: "Civil ceremony" },
+    { option1: "Unity candle", option2: "Sand ceremony" },
+    { option1: "Classic car exit", option2: "Sparkler send-off" },
+    { option1: "Joint bachelor/ette", option2: "Separate parties" },
+    { option1: "DIY decorations", option2: "Professional decor" },
+    { option1: "Flower bouquet", option2: "Alternative bouquet" },
+    { option1: "Tiered wedding cake", option2: "Dessert bar" },
+    { option1: "Assigned seating", option2: "Open seating" },
+    { option1: "Child-free wedding", option2: "Family-friendly" },
+    { option1: "Morning ceremony", option2: "Evening ceremony" },
+    { option1: "Champagne toast", option2: "Alternative drinks" },
+    { option1: "Garter/bouquet toss", option2: "Skip the tradition" },
+    { option1: "First dance", option2: "Group dance" },
+    { option1: "Matching wedding bands", option2: "Unique rings" },
+    { option1: "Bridal party", option2: "No bridal party" },
+    { option1: "Guest book", option2: "Alternative memento" },
+    { option1: "Wedding hashtag", option2: "Unplugged ceremony" },
+    { option1: "Joint bank account", option2: "Separate finances" },
+    { option1: "City apartment", option2: "Suburban house" },
+    { option1: "Kids soon after", option2: "Travel first" },
+    { option1: "Adopt a pet", option2: "Plant parents" },
+    { option1: "Weekend getaways", option2: "Home projects" },
+    { option1: "Cooking together", option2: "Eating out" },
+    { option1: "Joint hobbies", option2: "Individual interests" },
+    { option1: "Saving for a house", option2: "Investing in experiences" },
+    { option1: "Family gatherings", option2: "Friend hangouts" },
+    { option1: "Career focus", option2: "Work-life balance" },
+    { option1: "Same last name", option2: "Keep own names" },
+    { option1: "Wedding gift registry", option2: "Honeymoon fund" },
+    { option1: "Written thank-you notes", option2: "Digital thank-yous" },
+    { option1: "Prenup", option2: "No prenup" },
+    { option1: "Debt payoff", option2: "Savings growth" },
+    { option1: "Renting long-term", option2: "Buying a home" },
+    { option1: "Local roots", option2: "Frequent relocations" },
+    { option1: "Vacation home", option2: "World travels" },
+    { option1: "Retirement planning", option2: "Living in the moment" },
+    { option1: "Family business", option2: "Separate careers" },
   ],
   work: [
     { option1: "Work from home", option2: "Work from office" },
