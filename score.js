@@ -1,4 +1,4 @@
-const scoreTable = {
+export const scoreTable = {
   mas_10: [
     {
       title: "The Trendsetting",
